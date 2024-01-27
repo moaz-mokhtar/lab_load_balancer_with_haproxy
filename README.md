@@ -51,4 +51,4 @@
 
 Screenshot:
 
-![Terminals screenshot](image.png)
+![Terminals screenshot](res/terminals_screenshot.png)
