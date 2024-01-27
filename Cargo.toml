@@ -1,0 +1,16 @@
+[package]
+name = "load_balancer_with_haproxy"
+edition = "2021"
+
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Moaz bin Mokhtar <moaz.mokhtar@gmail.com>"]
+description = "Laboratory to test load balancer using Rust, Actix and HAProxy"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+
+[workspace]
+members = ["server_1", "server_2"]
+default-members = ["server_1", "server_2"]
